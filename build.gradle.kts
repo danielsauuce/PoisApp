@@ -2,4 +2,9 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.jetbrains.kotlin.android) apply false
+//    alias(libs.plugins.kotlin.compose)
+//    alias(libs.plugins.ksp)
+//    id("com.google.devtools.ksp") version (libs.versions.ksp) apply false
+//    id("kotlin-kapt")
+
 }

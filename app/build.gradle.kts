@@ -66,4 +66,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.ramanimaps)
+    implementation(libs.maplibre)
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+//    ksp(libs.room.compiler)
+//    kapt("androidx.room:room-complier:2.6.1")
+    implementation(libs.androidx.navigation.compose)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0")
+
 }
